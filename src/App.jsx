@@ -31,7 +31,7 @@ export default function App() {
 
   const displayData = data.map((data) => (
     <div>
-      <Slide key={data.id} title={data.title} desc={data.description} id= {data.id} />
+      <Slide key={data.id} title={data.title} desc={data.description} />
     </div>
   ));
   return (
