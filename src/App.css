@@ -36,3 +36,37 @@
     transform: rotate(360deg);
   }
 }
+
+.btn {
+  margin-right: 10px;
+  color: red;
+  border-radius: 5px;
+  padding: 5px;
+}
+
+.btn:hover {
+  background-color: red;
+  color: white;
+  cursor: pointer;
+}
+
+.btn2 {
+  margin-left: 10px;
+  color: green;
+  border-radius: 5px;
+  padding: 5px;
+}
+
+.btn2:hover {
+  background-color: green;
+  color: white;
+  cursor: pointer;
+}
+
+.slide-container {
+  border: 1px solid red;
+  border-radius: 10px;
+  margin-left: 40px;
+  margin-right: 40px;
+  margin-bottom: 20px;
+}
