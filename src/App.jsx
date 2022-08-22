@@ -1,7 +1,7 @@
 import Slide from "./Components/Slide";
 import "./App.css";
 import React from "react";
-import Data from "./Components/data";
+
 
 // once you download the template; please run  "npm install" command and that will install all the packages required for this project by referencing package.json;
 
@@ -25,7 +25,7 @@ export default function App() {
     fetch(`https://slides-app-220822.herokuapp.com/slides`)
       .then((res) => res.json())
       .then((res) => setData(res))
-      .catch((_err) => setError(true))
+      .catch((error) => setError(true))
       
   };
 
