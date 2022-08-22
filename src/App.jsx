@@ -16,8 +16,8 @@ return (
       <h3 data-cy="title">{data.title}</h3>
       <p data-cy="description">{data.description}</p>
     </div>
-    <button data-cy="prev" disabled={count === 0} onClick={() => setCount(count-1)}>Prev</button>
-    <button data-cy="next" disabled={count === 4} onClick={() => setCount(count+1)}>Next</button>
+    <button className="btn" data-cy="prev" disabled={count === 0} onClick={() => setCount(count-1)}>⬅ Previous </button>
+    <button className="btn2" data-cy="next" disabled={count === 4} onClick={() => setCount(count+1)}>Next ➡</button>
   </div>
 )
 }
