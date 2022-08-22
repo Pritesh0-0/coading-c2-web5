@@ -1,0 +1,29 @@
+{
+    "person": [
+    {
+      "id": 1,
+      "name": "Intro to React",
+      "description": "ReactJS is a declarative, efficient, and flexible JavaScript library for building reusable UI components"
+    },
+    {
+      "id": 2,
+      "name": "Intro to Props",
+      "description": "Props are just properties"
+    },
+    {
+      "id": 3,
+      "name": "State management",
+      "description": "Learn how to manage state"
+    },
+    {
+      "id": 4,
+      "name": "JSX",
+      "description": "JSX stands for JavaScript XML. It is a JavaScript syntax extension. Its an XML or HTML like syntax used by ReactJS. "
+    },
+    {
+      "id": 5,
+      "name": "Components",
+      "description": "ReactJS is all about components. ReactJS application is made up of multiple components, and each component has its own logic and controls. These components can be reusable which help you to maintain the code when working on larger scale projects."
+    }
+  ]
+}
